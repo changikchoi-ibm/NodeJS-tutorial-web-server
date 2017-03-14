@@ -17,7 +17,7 @@ app.use(middleware.logger);
 //every page route 
 
 app.get('/about;', middleware.requireAuthentication, function(req, res){
-    res.send('About us');''
+    res.send('About us!!!!!');''
 })
 
 app.get('/about', function(req, res) {
